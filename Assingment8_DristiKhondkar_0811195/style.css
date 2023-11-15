@@ -1,0 +1,86 @@
+
+body {
+    background-color: rgba(234, 225, 214, 0.85)!important;
+}
+
+/**********************
+2. Heading Styles
+**********************/
+
+h1 {
+    font-size: 3em;
+    font-family: 'Work Sans', sans-serif;
+    color:black;
+    text-align: center;
+    margin: 15px 10px;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(234, 151, 87);
+    text-align: center;
+    margin: 15px 10px;
+}
+
+/**********************
+3. Main Body Styles
+**********************/
+
+#logo {
+    width: 50px;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+p {
+text-align: justify;
+line-height: 1.5;
+font-size: 1.5em;
+color: rgb(226, 165, 79);
+}
+
+/**********************
+4. Footer Styles
+**********************/
+
+footer {
+    height:48px;  
+    background-color: rgba(229, 125, 22, 0.845)
+}
+
+footer p {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 6px 0px;
+}
+
+
+/****************************** MEDIA QUERY ********************/
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color:orange!important; 
+    }
+
+    footer {
+        height: auto;
+    }
+  }
+
+  
+@media screen and (max-width: 576px) {
+    body {
+      background-color: red !important; 
+    }
+    footer {
+        height: 100%;
+    }
+  }
